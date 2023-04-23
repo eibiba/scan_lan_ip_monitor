@@ -18,7 +18,7 @@ set "debugOutput=0"
 rem increase this value for a thourough scan
 set /a "scanPingRequests=1"
 rem increase this value if you're getting false disconnected devices 
-set /a "monitorPingRequests=2"
+set /a "monitorPingRequests=1"
 
 set "myID=%~2"
 if "%~1" neq "" goto %1
